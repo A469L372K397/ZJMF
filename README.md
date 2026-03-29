@@ -115,22 +115,35 @@
 
    （一）环境要求
       1、系统：使用Windows-2019(已测试)，确保是干净的操作系统；Hyper-V操作系统镜像目前支持Windows-2019(推荐)、Windows-2008R2、Windows-2012R2、Windows-2016
+   
       2、服务器自行安装微软Hyper-V组件，将外网网卡名称修改为external，并建议将安装文件和安装目录添加到Windows病毒防护白名单，详情参考[Hyper-V环境配置](https://www.idcsmart.com/wiki_list/893.html)
+   
       3、创建实例所需[镜像](https://www.idcsmart.com/wiki_list/903.html)请自行下载并放置在计算节点服务器D:\images 目录下
+   
 
    （二）注意事项
       1、请先部署主控后部署计算节点
+   
       2、安装之前，请获取授权码
+   
       3、Hyper-V节点只支持本地存储
+   
 
    （三）操作步骤
       1、准备需要部署Hyper-v的服务器（注意环境要求）
+   
       2、下载[Hyper-V安装包](https://raw.githubusercontent.com/A469L372K397/ZJMF/main/hv_install-2.0.6.zip)，放入服务器中（建议将安装文件和安装目录添加到Windows病毒防护白名单）
+   
       3、解压安装包，运行“安装包.exe”
+   
       4、输入的授权码校验成功后，指定程序安装位置，等待程序自动安装脚本
+   
       5、在D盘创建images文件夹，将创建实例所需系统镜像（[Hyper-v镜像下载地址](https://www.idcsmart.com/wiki_list/903.html)）放入文件夹中
+   
       6、进入魔方云web控制面板-->节点管理页面，进行添加节点操作，节点类型选择Hyper-V
+   
       7、如需重新安装Hyper-V安装包，请先卸载之前的Hyper-V安装包
+   
 
 ### 智简魔方用户指南
 
