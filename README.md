@@ -91,6 +91,7 @@
    ```
 
 后续每次更新都要重新执行上述命令。
+
 [魔方云安装完毕后几点优化操作 以及常见问题处理](https://raw.githubusercontent.com/A469L372K397/ZJMF/main/Common-problem-handling.md)
 
 ### 自建授权接口站点（可选）
